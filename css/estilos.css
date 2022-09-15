@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -269,123 +272,91 @@ main .sobre-nosotros{
 
 /* footer */
 
-footer{
-    background: #414141;
-    padding: 60px 0 30px 0;
+.pie-pagina{
+    width: 100%;
+    background-color: #f50606;
+    background: -webkit-linear-gradient(to right, hsla(0, 100%, 50%), hsl(236, 100%, 51%));
+    background: linear-gradient(to right, hsl(249, 100%, 50%), hsl(0, 100%, 50%));
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
-    overflow: hidden;
-}
-
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-}
-
-.content-foo{
-    text-align: center;
-}
-
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #af20d3;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.content-foo p{
-    color: #ccc;
-}
-
-.titulo-final{
-    text-align: center;
-    font-size: 24px;
-    margin: 20px 0 0 0;
-    color: #9e9797;
-}
-
-/*footer*/
-.footer{
-    background-color: #1D293F;
-}
-.footer__title{
-    font-weight: 300;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
-.footer__title ,.footer__newsletter{
-    color: #fff;
-}
-
-.footer__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 60px;
-}
-.nav--footer{
-    padding-bottom: 20px;
     display: grid;
-    gap: 1em;
-    grid-auto-flow:row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
     height: 100%;
-}
-.nav__link--footer{
     display: flex;
-    margin: 0;
-    margin-right: 20px;
-    flex-wrap: wrap;
-
+    justify-content: center;
+    align-items: center;
 }
-.footer__inputs{
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
 }
-.footer__input{
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
+.pie-pagina .grupo-1 .box h2{
+    color:rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
 }
-.footer__submit{
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px;
-    background-color: #2091F9;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.footer__copy{
-    --padding-container:30px 0;
-    text-align: center;
-    color: #fff;
-
-}
-.footer__copyright{
-    font-weight: 300;
-}
-.footer__icons{
+.pie-pagina .grupo-1 .box p{
+    color: #000000;
     margin-bottom: 10px;
 }
-.footer__img{
-    width: 30px;
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #000000;
+    border-radius: 6px;
+    text-align: center;
+    transition: all 300ms ease;
 }
+.pie-pagina .grupo-2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+/*Historia*/
+.img-fluid{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+/*Reglamentos*/
+.img-fluid1{
+    width: 20rem;
+    border-radius: 50px;
+}
+Button {
+    height: 70px;
+    width: 90%;
+    outline: none;
+    background-color: #260991;;
+    color: rgba(3, 3, 3, 0.993);
+    border-radius: 6px; }
+  
+  Button:hover {
+    background-color: transparent;
+    color: rgba(77, 70, 70, 0.699);
+    border: 1px solid #260991;
+    transition: 0.5s; }
+  
+  #button-ver-mas {
+    font-size: x-large;
+    color: #111111;
+    text-decoration: none; }
+  
+
 
 
 
@@ -449,27 +420,24 @@ footer{
     .servicio-ind img{
         width: 90%;
     }
+     
+    /*Reglamentos*/
+    Button {
+        height: 70px;
+        width: 90%;
+        outline: none;
+        background-color: #260991;;
+        color: rgba(3, 3, 3, 0.993);
+        border-radius: 6px; }
+    
     /*Footer*/
-    .footer__container{
-        flex-wrap: wrap;
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
     }
-    .nav--footer{
-        width: 100%;
-        justify-items: center;
-    }
-    .nav__link--footer{
-        width: 100%;
-        justify-content: space-evenly;
-        margin:0;
-
-    }
-    .footer__form{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    .footer__input{
-        flex: 1;
-    }
+    
 }
 
 @media screen and (max-width:500px){
@@ -521,31 +489,12 @@ footer{
         height: 90px;
     }
 
-    /* Footer */
-
-    .contenedor-footer{
-        flex-direction: column;
-        border: none;
+    /*Footer*/
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
     }
-
-    .content-foo{
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .content-foo h4{
-        border: none;
-    }
-
-    .content-foo p{
-        color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
-    }
-
-    .titulo-final{
-        font-size: 20px;
-    }
-
     
 }
