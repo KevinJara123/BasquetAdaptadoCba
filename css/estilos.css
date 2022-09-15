@@ -356,7 +356,51 @@ Button {
     color: #111111;
     text-decoration: none; }
   
+/*Contactos*/
 
+/*Contactos*/
+.circle {
+
+    height: 70px;
+    width: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px; }
+  
+  .circle:hover {
+    background-color: #070af1;
+    color: white;
+    transition: 0.5s; }
+  
+  .contact .btn3 {
+    background-color: #070af1;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px; }
+  
+  .btn3:hover {
+    background: white;
+    color: #070af1;
+    transition: 0.4s;
+    border: 1px solid #f50606; }
+  
+  #email-1 {
+    opacity: 0; }
+  
+  
+  #videos {
+    justify-content: center; }
+  
+  
 
 
 
