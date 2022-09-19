@@ -337,7 +337,7 @@ main .sobre-nosotros{
     width: 20rem;
     border-radius: 50px;
 }
-Button {
+.btn-descargar {
     height: 70px;
     width: 90%;
     outline: none;
@@ -345,19 +345,16 @@ Button {
     color: rgba(3, 3, 3, 0.993);
     border-radius: 6px; }
   
-  Button:hover {
+.btn-descargar:hover {
     background-color: transparent;
     color: rgba(77, 70, 70, 0.699);
     border: 1px solid #260991;
     transition: 0.5s; }
   
-  #button-ver-mas {
+#button-ver-mas {
     font-size: x-large;
     color: #111111;
     text-decoration: none; }
-  
-/*Contactos*/
-
 /*Contactos*/
 .circle {
 
