@@ -459,6 +459,19 @@ hr{
     margin: 20px 5px;
 }
 
+/*Clasificacion Funcional*/
+.h1-clasificacion-funcional{
+    font-family: fantasy;
+    color: #070af1;
+}
+.h2-clasificacion-funcional{
+    font-family: sans-serif;
+    color: #0e01ce;
+}
+.py-1{
+    font-family: cursive;
+    font-size:1,5rem;
+}
 
 
 
