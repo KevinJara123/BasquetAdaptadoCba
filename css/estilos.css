@@ -435,6 +435,20 @@ hr{
     font-size:1,5rem;
 }
 
+/*Comentarios*/
+
+.ctn-lbl-comentar{
+    width: 100%;
+    text-align: center;
+
+}
+.lbl-comentar{
+    font-family: cursive;
+    font-size: 20px;
+
+    text-shadow: 1px 2px 1px blue;
+}
+
 
 
 @media screen and (max-width:900px){
