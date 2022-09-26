@@ -436,11 +436,12 @@ hr{
 }
 
 /*Comentarios*/
-
+.section-comentarios{
+    background: rgb(189, 189, 189);
+}
 .ctn-lbl-comentar{
     width: 100%;
     text-align: center;
-    background-color: rgb(190, 190, 190);
 
 }
 .lbl-comentar{
@@ -449,6 +450,7 @@ hr{
 
     text-shadow: 1px 2px 1px blue;
 }
+
 
 
 
