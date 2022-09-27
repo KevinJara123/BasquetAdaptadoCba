@@ -292,6 +292,13 @@ main .sobre-nosotros{
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+.grupo-2 a{
+    text-decoration: none;
+    color: #fffefe;
+}
+.grupo-2 a:hover{
+    color: #ffffff;
+}
 /*Historia*/
 .img-fluid{
     border-radius: 30px;
