@@ -50,10 +50,13 @@ nav > a{
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    
 }
 
 nav > a:hover{
     text-decoration: none;
+    color: #000000;
+    
     
 }
 
@@ -324,7 +327,7 @@ main .sobre-nosotros{
     width: 70px;
     height: 70px;
     width: 70px;
-    background-color: lightgray;
+    background-color: rgb(184, 184, 184);
     color: black;
     padding: 12px;
     font-size: 30px;
@@ -336,7 +339,14 @@ main .sobre-nosotros{
     background-color: #070af1;
     color: white;
     transition: 0.5s; }
-  
+  .contactos-fbpc{
+    text-decoration: none;
+    color: #000000;
+  }
+  .contactos-fbpc:hover{
+    color: #000000;
+  }
+
   .contact .btn3 {
     background-color: #070af1;
     color: white;
@@ -446,7 +456,101 @@ hr{
     text-align: center;
 
 }
+/*Equipos*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.cards .card{
+    background: #000000be;
+    display: flex;
+    width: 46%;
+    height: 210px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin-bottom: 10rem;
+}
+
+.cards .card img{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 15%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+    text-align: center;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.icons-equipos{
+    width: 5px;
+}
+.contactos-clubes{
+    text-decoration: none;
+    color: #000000;
+}
+.contactos-clubes:hover{
+    color: #f50606;
+}
+.circle1 {
+
+    height: 70px;
+    width: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(245, 7, 7);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    justify-content: center; }
+  
+  .circle1:hover {
+    background-color: #ff0202;
+    color: white;
+    transition: 0.5s; }    
+    
+    
+    .circle2 {
+
+        height: 70px;
+        width: 70px;
+        height: 70px;
+        width: 70px;
+        background-color: rgb(7, 245, 19);
+        color: black;
+        padding: 12px;
+        font-size: 30px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: 20px;
+        justify-content: center; }
+      
+      .circle2:hover {
+        background-color: rgb(7, 245, 19);
+        color: rgb(255, 238, 0);
+        transition: 0.5s; }
+
+
+.contact{
+    background-color: rgba(209, 206, 206, 0.938);
+}
 
 
 
