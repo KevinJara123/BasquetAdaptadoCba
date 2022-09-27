@@ -366,9 +366,10 @@ main .sobre-nosotros{
     opacity: 0; }
   
   
-  #videos {
-    justify-content: center; }
-  
+  .alert{
+    display: none;
+  }
+
 /*Equipos*/
 .h1-cards{
         text-align: center;
