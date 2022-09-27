@@ -366,9 +366,7 @@ main .sobre-nosotros{
     opacity: 0; }
   
   
-  .alert{
-    display: none;
-  }
+ 
 
 /*Equipos*/
 .h1-cards{
@@ -505,7 +503,7 @@ hr{
     color: #000000;
 }
 .contactos-clubes:hover{
-    color: #f50606;
+    color: #110a0a;
 }
 .circle1 {
 
@@ -550,7 +548,7 @@ hr{
 
 
 .contact{
-    background-color: rgba(209, 206, 206, 0.938);
+    background-color: rgba(255, 255, 255, 0.938);
 }
 
 
