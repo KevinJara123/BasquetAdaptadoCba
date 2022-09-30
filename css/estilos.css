@@ -558,6 +558,29 @@ hr{
     background-color: rgba(255, 255, 255, 0.938);
 }
 
+.circle3 {
+
+    height: 70px;
+    width: 70px;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(245, 241, 7);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    justify-content: center; }
+  
+  .circle3:hover {
+    background-color: rgb(229, 245, 7);
+    color: rgb(182, 182, 182);
+    transition: 0.5s; }
+
+
+
+
 
 
 
