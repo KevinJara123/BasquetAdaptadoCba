@@ -598,8 +598,17 @@ hr{
         color: rgb(255, 166, 0);
         transition: 0.5s; }
     
+     /*Carrousel*/
+    .ruta-link {
+        text-decoration: none;
+        color: rgb(0, 0, 255);
+        font-size: 30px;
 
-
+    }
+    .p-carrousel{
+        color:rgb(0, 0, 255);
+        font-size: 20px;
+    }
 
 
 
@@ -680,7 +689,8 @@ hr{
         grid-gap: 30px;
         padding: 35px 0px;
     }
-    
+ 
+
 }
 
 @media screen and (max-width:500px){
