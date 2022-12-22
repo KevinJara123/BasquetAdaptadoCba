@@ -17,12 +17,12 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="9uEPJhnu"></script>
     <header>
         <nav>
-            <a href="index.html">Inicio</a>
-            <a href="pages/AcercaDe.html">Acerca de</a>
-            <a href="pages/Reglamentos.html">Reglamentos</a>
-            <a href="pages/clasificacion-funcional.html">Clasificaciòn Funcional</a>
-            <a href="pages/EquIpos.html">Equipos</a>
-            <a href="pages/Contacto.html">Contacto</a>
+            <a href="index.html"> Inicio</a>
+            <a href="pages/AcercaDe.html"> Acerca de</a>
+            <a href="pages/Reglamentos.html"> Reglamentos</a>
+            <a href="pages/clasificacion-funcional.html"> Clasificaciòn Funcional</a>
+            <a href="pages/EquIpos.html"> Equipos</a>
+            <a href="pages/Contacto.html"> Contacto</a>
             
         </nav>
         <section class="textos-header">
@@ -60,76 +60,79 @@
                         <img src="img/img1.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="img/logo-basketball.svg" alt="">
-                            <a href="pages/equipos/sica.html"><p>Sica</p></a>
-                        </div>
+                            <a class="link-equipo" href="pages/equipos/sica.html"><p class="link-equipo">Sica</p></a>
+                        </div> 
                     </div>
                     <div class="imagen-port">
                         <img src="img/img2.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="img/logo-basketball.svg" alt="">
-                            <a href="pages/equipos/poetalugones.html"><p>Poeta Lugones</p></a>
+                            <a class="link-equipo" href="pages/equipos/poetalugones.html"><p class="link-equipo">Poeta Lugones</p></a>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="img/Fudiag.jpeg" alt="">
                         <div class="hover-galeria">
                             <img src="img/logo-basketball.svg" alt="">
-                            <a href="pages/equipos/fudiag.html"><p>Fudiag</p></a>
+                            <a class="link-equipo" href="pages/equipos/fudiag.html"><p class="link-equipo">Fudiag</p></a>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="img/Derecho sobre ruedas.jpeg" alt="">
                         <div class="hover-galeria">
                             <img src="img/logo-basketball.svg" alt="">
-                            <p> Derechos Sobre Ruedas</p>
+                            <a class="link-equipo" href="pages/equipos/fudiag.html"><p class="link-equipo">Derechos Sobre Ruedas</p></a>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="img/Rio cuarto.jpeg" alt="">
                         <div class="hover-galeria">
                             <img src="img/logo-basketball.svg" alt="">
-                            <a href="pages/equipos/halcones.html"><p>Halcones</p></a>
+                            <a class="link-equipo" href="pages/equipos/halcones.html"><p class="link-equipo">Halcones</p></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
       
-         <div id="carouselExampleControls" class="carousel slide height-10" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/sponsors/Valle1.jpeg" class="d-block w-100  " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="http://valle.com.ar/" class="ruta-link"><h2 class="link-carrousel">Valle</h2></a>
-                      <p class="p-carrousel">Vallè se consolida como la empresa lider en argentina en equipamientos
-                        para vehìculos.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/sponsors/Valle1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="#" class="ruta-link"><h2 class="link-carrousel">Second slide label</h2></a>
-                      <p class="p-carrousel">Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/sponsors/Valle1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="#" class="ruta-link"><h2 class="link-carrousel">Second slide label</h2></a>
-                      <p class="p-carrousel">Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-         </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/sponsors/Valle1.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <a href="http://valle.com.ar/" class="ruta-link"><h5>Vallè</h5></a>
+                <p class="p-carrousel">Vallè se consolida como la empresa  lider en Argentina en equipamiento para vehiculos.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/sponsors/Valle1.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <a href="http://valle.com.ar/" class="ruta-link"><h5>Vallè</h5></a>
+                <p class="p-carrousel">Vallè se consolida como la empresa  lider en Argentina en equipamiento para vehiculos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sponsors/Valle1.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <a href="http://valle.com.ar/" class="ruta-link"><h5>Vallè</h5></a>
+                <p class="p-carrousel">Vallè se consolida como la empresa  lider en Argentina en equipamiento para vehiculos.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+          </button>
+        </div>
             
 
             <div class="comentarios">
@@ -143,7 +146,7 @@
         <div class="box">
           <figure>
           <a href="index.html">
-            <img src="img/Logo-tipo-basketball.png" alt="Logo ">
+            <img src="img/logo-tipo-basketball.png" alt="Logo ">
           </a>
         </figure>
         </div>

@@ -46,16 +46,18 @@ nav{
 }
 
 nav > a{
-    color:#fff;
-    font-weight: 300;
+    color:rgb(8, 8, 8);
+    font-weight: 200;
     text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     margin-right: 10px;
     
 }
 
 nav > a:hover{
     text-decoration: none;
-    color: #000000;
+    color: #ff0000;
     
     
 }
@@ -153,6 +155,14 @@ main .sobre-nosotros{
 
 /* Galeria */
 
+.link-equipo{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-equipo:hover{
+    color: rgb(0, 0, 0);
+}
 
 .portafolio{
     background:hsla(0, 0%, 92%, 0.664);
@@ -604,7 +614,7 @@ hr{
      /*Carrousel*/
     .ruta-link {
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgb(253, 237, 8);
         font-size: 30px;
 
     }
@@ -612,7 +622,7 @@ hr{
         color: #f8f8f8;
     }
     .p-carrousel{
-        color:rgb(255, 255, 255);
+        color:rgb(253, 237, 8);;
         font-size: 20px;
     }
 
@@ -695,7 +705,12 @@ hr{
         grid-gap: 30px;
         padding: 35px 0px;
     }
- 
+    /*Carrousel*/
+    .carousel-caption.ruta-link{
+        position: relative;
+        font-size: 10px;
+        
+    }
 
 }
 
