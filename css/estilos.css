@@ -366,6 +366,7 @@ main .sobre-nosotros{
 .servicio-ind{
     width: 28%;
     text-align: center;
+    
 }
 
 .servicio-ind img{
@@ -388,6 +389,7 @@ main .sobre-nosotros{
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+
 }
 
 
@@ -637,6 +639,7 @@ hr{
     
     
     /*Reglamentos*/
+
     Button {
         height: 70px;
         width: 90%;
@@ -644,6 +647,47 @@ hr{
         background-color: #260991;;
         color: rgba(3, 3, 3, 0.993);
         border-radius: 6px; }
+
+
+        .btn-descargar {
+            height: 90px;
+            outline: none;
+            background-color: #ff0000;;
+            color: rgba(3, 3, 3, 0.993);
+            border-radius: 6px; }
+          
+        .btn-descargar:hover {
+            background-color: transparent;
+            color: rgba(77, 70, 70, 0.699);
+            border: 1px solid #000000;
+            transition: 0.5s; }
+          
+        #button-ver-mas {
+            font-size: x-large;
+            color: #111111;
+            text-decoration: none;
+            text-align: center;
+             }
+        
+        .servicio-cont{
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+            }
+        .servicio-ind{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+                
+            }
+        
+        .servicio-ind h3{
+            font-size: 15px;
+            text-align: start;
+          
+            
+        }
     
     /*Footer*/
     .pie-pagina .grupo-1{
@@ -658,6 +702,8 @@ hr{
         font-size: 10px;
         
     }
+    
+    
 }
 
 @media screen and (max-width:500px){
@@ -709,6 +755,7 @@ hr{
         width: 90px;
         height: 90px;
     }
+    
 
     /*Footer*/
     .pie-pagina .grupo-1{
