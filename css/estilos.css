@@ -11,8 +11,6 @@ body {
     font-family: 'open sans';
 }
 
-
-  
 .nav-link {
     color: rgb(255, 0, 0);
     border-radius: 3px;
@@ -49,7 +47,7 @@ header {
 }
 
 header .textos-header{
-    display: flex;
+    margin-top: 100px;
     height: 430px;
     width: 100%;
     align-items: center;
@@ -385,7 +383,10 @@ main .sobre-nosotros{
 
 }
 
-
+/*Logo Sica*/
+.logo-sica{
+    width: 50px;
+}
 
 /*Equipos*/
 .h1-cards{
@@ -641,6 +642,7 @@ hr{
         color: rgba(3, 3, 3, 0.993);
         border-radius: 6px; }
 
+    
 
         .btn-descargar {
             height: 90px;
@@ -700,6 +702,7 @@ hr{
 }
 
 @media screen and (max-width:500px){
+   
     nav{
         text-align: center;
         padding: 30px 0 0 0;
@@ -708,11 +711,9 @@ hr{
     nav > a{
         margin-right: 5px;
     }
-
-    .textos-header h1{
-        font-size: 35px;
+    .boton5-link{
+        display: none;
     }
-
     .textos-header h2{
         font-size: 20px;
     }
@@ -748,7 +749,10 @@ hr{
         width: 90px;
         height: 90px;
     }
-    
+    /*Logo Sica*/
+   .logo-sica{
+    width: 100px;
+   }
 
     /*Footer*/
     .pie-pagina .grupo-1{
