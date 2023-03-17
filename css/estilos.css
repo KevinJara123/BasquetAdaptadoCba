@@ -16,21 +16,30 @@ body {
     border-radius: 3px;
     padding-top: 5px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 1000;
+    font-family: LaurensDEMO;
     cursor: pointer;
     text-decoration: none; }
   
   .nav-link:hover {
     color: white;
     background-color: #ff0000; }
+
+
+ 
+  .dropdown-item{
+    font-family:LaurensDEMO;
+    font-size: 15px;
+  }
   
+ 
 
 .titulo {
-    color: hsla(0, 100%, 50%, 0.925);
+    color: hsla(0, 0%, 0%, 0.925);
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Mont-HeavyDEMO ;
 }
 
 /* Header */
@@ -59,12 +68,14 @@ header .textos-header{
 .textos-header h1{
     font-size: 50px;
     color:#fff;
+    font-family:Laurens Demo;
 }
 
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
     color:#fff;
+    font-family:Laurens Demo;
 }
 
 .wave{
@@ -72,28 +83,7 @@ header .textos-header{
     bottom: 0;
     width: 100%;
 }
-.boton5-link{
-    text-decoration: none;
-}
-.boton5 {
-    color: #fff !important;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0.5em 1.2em;
-    background: #000000;
-    position: relative;
-    border: 2px solid #000000;
-    outline: 1px solid;
-    outline-color: rgba(255, 0, 0, 0.4);
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-  .boton5:hover {
-    box-shadow: inset 0 0 20px rgba(255, 0, 0, 0.699), 0 0 20px rgba(49, 138, 172, 0.4);
-    outline-color: rgba(49, 138, 172, 0);
-    outline-offset: 80px;
-    text-shadow: 1px 1px 6px #fff; 
-  }
-  
+
 
 
 /* About us */
@@ -110,16 +100,18 @@ main .sobre-nosotros{
     width: 48%;
 }
 
+
 .sobre-nosotros .contenido-textos{
     width: 48%;
 }
 
 .contenido-textos h3{
     margin-bottom: 15px;
+    font-family:Mont-HeavyDEMO;
 }
 
 .contenido-textos h3 span{
-    background: hsla(0, 100%, 50%, 0.925);
+    background: hsla(0, 0%, 0%, 0.925);
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -133,8 +125,9 @@ main .sobre-nosotros{
 
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: justify;
+    font-family: Mont-HeavyDEMO;
 }
 
 
@@ -171,12 +164,13 @@ main .sobre-nosotros{
 .pie-pagina .grupo-1 .box h2{
     color:rgb(255, 253, 253);
     margin-bottom: 25px;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-family:Drakoni Sans;
 }
 .pie-pagina .grupo-1 .box p{
     color: #ffffff;
     margin-bottom: 10px;
+    font-family:Drakoni Sans;
 }
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
@@ -396,11 +390,14 @@ main .sobre-nosotros{
         text-align: center;
         padding: 10px;
         color: rgb(97, 96, 96);
+        font-family: GratelosDisplay;
+        
 }
 .h2-cards{
     text-align: center;
     padding: 10px;
     color: rgb(97, 96, 96);
+    font-family: VintageKing;
 }
 .descripcion1{
     text-align: center;
@@ -419,6 +416,10 @@ main .sobre-nosotros{
 }
 .p-cards{
     font-size: 20px;
+    font-family: Vintage King;
+}
+.p-card{
+    font-family: Vintage King;
 }
 .card__perfil1{
     width: 310px;
@@ -463,7 +464,7 @@ hr{
     color: #ce0101;
 }
 .py-1{
-    font-family: cursive;
+    font-family: Mont-HeavyDEMO;
     font-size:1,5rem;
 }
 
@@ -742,12 +743,36 @@ hr{
     
     .textos-header h1{
         font-size: 35px;
+        font-family:Laurens Demo;
     }
 
     .textos-header h2{
         font-size: 20px;
+        font-family:Laurens Demo;
     }
 
+    .boton5-link{
+        text-decoration: none;
+    }
+    .boton5 {
+        color: #fff !important;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: #000000;
+        position: relative;
+        bottom: top;
+        border: 2px solid #000000;
+        outline: 1px solid;
+        outline-color: rgba(255, 0, 0, 0.4);
+        transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+      .boton5:hover {
+        box-shadow: inset 0 0 20px rgba(255, 0, 0, 0.699), 0 0 20px rgba(49, 138, 172, 0.4);
+        outline-color: rgba(49, 138, 172, 0);
+        outline-offset: 80px;
+        text-shadow: 1px 1px 6px #fff; 
+      }
     /* ABOUT US */
 
 
@@ -791,5 +816,7 @@ hr{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+
+    
     
 }
