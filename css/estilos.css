@@ -56,7 +56,7 @@ header {
 }
 
 header .textos-header{
-    margin-top: 100px;
+    margin-top: 79px;
     height: 430px;
     width: 100%;
     align-items: center;
@@ -78,6 +78,28 @@ header .textos-header{
     font-family:Laurens Demo;
 }
 
+.boton5-link{
+    text-decoration: none;
+}
+.boton5 {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #000000;
+    position: relative;
+    bottom: top;
+    border: 2px solid #000000;
+    outline: 1px solid;
+    outline-color: rgba(255, 0, 0, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .boton5:hover {
+    box-shadow: inset 0 0 20px rgba(255, 0, 0, 0.699), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff; 
+  }
 .wave{
     position: absolute;
     bottom: 0;
@@ -397,7 +419,7 @@ main .sobre-nosotros{
     text-align: center;
     padding: 10px;
     color: rgb(97, 96, 96);
-    font-family: VintageKing;
+    font-family: GratelosDisplay;
 }
 .descripcion1{
     text-align: center;
@@ -416,10 +438,10 @@ main .sobre-nosotros{
 }
 .p-cards{
     font-size: 20px;
-    font-family: Vintage King;
+    font-family: GratelosDisplay;
 }
 .p-card{
-    font-family: Vintage King;
+    font-family: GratelosDisplay;
 }
 .card__perfil1{
     width: 310px;
