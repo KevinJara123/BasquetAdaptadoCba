@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     
 </head>
@@ -35,14 +36,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="../pages/AcercaDe.html">Acerca de</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../disciplina/sica.html">Equipo</a>
-              </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="../pages/clasificacion-funcional.html">Clasificaciòn Funcional</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/Reglamentos.html">Reglamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../disciplina/sica.html">Equipo</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/Contacto.html">Contactos</a>
@@ -54,8 +56,8 @@
         </div>
       </nav>
         <section class="textos-header">
-            <h1>Reglamentos del</h1>
-            <h1>Basquet Adaptado</h1>
+            <h1 data-aos="fade-down" data-aos-duration="3000">Reglamentos del</h1>
+            <h2 data-aos="fade-down" data-aos-duration="3000">Basquet Adaptado</h2>
             <br>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
@@ -68,7 +70,8 @@
     <section class="about-services">
         <div class="contenedor">
             <div class="servicio-cont">
-                <div class="servicio-ind">
+                <div class="servicio-ind" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="../img/gustavo.jpg"  alt="">
                     <h3 class="px-3 py-3 font-weight-bold text-center">
                         REGLAS OFICIALES DE LA LIGA ARGENTINA BSR 2022 </h3>
@@ -76,14 +79,16 @@
                             id="button-ver-mas" target="_blank">Descargar en PDF</a></Button>
         
                 </div>
-                <div class="servicio-ind">
+                <div class="servicio-ind" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="../img/gustavo.jpg"  alt="">
                     <h3 class="px-3 py-3 font-weight-bold text-center">
                         REGLAS OFICIALES DE BALONCESTO EN SILLA DE RUEDAS 5x5 2021</h3>
                     <Button class="btn-descargar"><a href="../pdf/REGLAS-IWBF-5x5-ESL-2021-Marzo-V2.pdf" class="font-weight-bold px-3 pb-4 "
                             id="button-ver-mas" target="_blank">Descargar en PDF</a></Button>
                 </div>
-                <div class="servicio-ind">
+                <div class="servicio-ind" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="../img/gustavo.jpg" alt="">
                     <h3 class="px-3 py-3 font-weight-bold text-center">
                         REGLAS
@@ -102,18 +107,18 @@
         <div class="box">
           <figure>
             <a href="../index.html">
-              <img src="../img/logo-tipo-basketball.png" alt="Logo ">
+              <img src="../img/logo-tipo-basketball.png" data-aos="zoom-in-down" data-aos-duration="3000" alt="Logo ">
           </a>
         </figure>
         </div>
         <div class="box">
-          <h2>SOBRE NOSOTROS</h2>
-         <b><p>Pagina para la difusion de la disciplina </p>
-          <p>basquet adaptado en la Provincia de Cordoba</p>
+          <h2 data-aos="zoom-in-down" data-aos-duration="3000">SOBRE NOSOTROS</h2>
+         <b><p data-aos="zoom-in-down" data-aos-duration="3000">Pagina para la difusion de la disciplina 
+          basquet adaptado en la Provincia de Cordoba</p>
         </div></b> 
         <div class="box">
-          <h2>SIGUENOS</h2>
-          <div class="red-social">
+          <h2 data-aos="zoom-in-down" data-aos-duration="3000">SIGUENOS</h2>
+          <div class="red-social"data-aos="zoom-in-down" data-aos-duration="3000">
             <a href="https://www.facebook.com/sicabasquetadaptado" target="_blank" ><img src="../img/facebook.svg" ></a>
             <a href="https://instagram.com/sica_bsr?igshid=OGQ2MjdiOTE=" target="_blank"><img src="../img/instagram.svg" ></a>
             <a href="https://www.youtube.com/channel/UCaXjdd8XmoAf4vklaL2oLPw" target="_blank"><img src="../img/youtube.svg"></a>
@@ -127,6 +132,10 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
